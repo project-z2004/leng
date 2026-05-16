@@ -98,13 +98,21 @@
       <button class="btn btn-danger w-100" onclick="resetGame()">
         Reset Game
       </button>
-
+      <a 
+        href="https://project-z2004.github.io/test/" 
+        target="_blank"
+        class="btn btn-warning w-100"
+        >
+        Kembali Ke Dashboard
+        </a>
+        <h5>*Noted</H5>
+          <h6>Button L adalah LENG</h6>
+          <H6>Button K adalah KALAH</H6>
     </div>
 
   </div>
 
 </div>
-
 <script>
 
 let players = [];
@@ -221,7 +229,7 @@ function renderTable(){
               class="btn btn-success"
               onclick="tambahPoint(${index})">
 
-              +
+              L
 
             </button>
 
@@ -230,7 +238,7 @@ function renderTable(){
               class="btn btn-warning"
               onclick="kurangPoint(${index})">
 
-              -
+              K
 
             </button>
 
